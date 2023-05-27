@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>我的个人博客</title>
+    <style>
+      /* 添加一些样式，使页面更美观 */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      nav {
+        background-color: #eee;
+        padding: 10px;
+      }
+      nav a {
+        display: inline-block;
+        padding: 5px;
+        margin: 0 10px;
+        color: #333;
+        text-decoration: none;
+      }
+      section {
+        background-color: #fff;
+        padding: 10px;
+        margin: 10px;
+      }
+      footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      /* 添加一个简单的动画效果 */
+      .box {
+        width: 100px;
+        height: 100px;
+        background-color: #f00;
+        position: relative;
+        animation: move 2s infinite alternate;
+      }
+      @keyframes move {
+        from {left: 0;}
+        to {left: 200px;}
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>我的个人博客</h1>
+    </header>
+    <nav>
+      <a href="#">首页</a>
+      <a href="#">分类</a>
+      <a href="#">标签</a>
+      <a href="#">关于我</a>
+      <a href="#">联系我</a>
+    </nav>
+    <section>
+      <h2>最新文章</h2>
+      <p>这里是一些最新的文章内容。</p>
+      <div class="box"></div>
+    </section>
+    <section>
+      <h2>热门文章</h2>
+      <p>这里是一些热门的文章内容。</p>
+      <div class="box"></div>
+    </section>
+    <footer>
+      &copy; 2021 我的个人博客
+    </footer>
+  </body>
+</html>
