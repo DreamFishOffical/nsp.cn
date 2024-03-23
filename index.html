@@ -1,62 +1,141 @@
-<body>
-  <div id="default-editor-page__placeholder" class="panel">
-    <link rel="stylesheet" href="https://template-1253409072.cos.ap-guangzhou.myqcloud.com/vip-tpl/assets/css/plugins.css"/>
-    <link rel="stylesheet" href="https://template-1253409072.cos.ap-guangzhou.myqcloud.com/vip-tpl/assets/css/style.css"/>
-    <section class="wrapper bg-gradient-primary">
-      <div class="container py-18 pt-md-14 pb-md-14">
-        <div class="row text-center">
-          <div class="col-lg-9 col-xxl-7 mx-auto">
-            <h2 class="display-1 mb-4">让找镜像，不再成为绊脚石！
-            </h2>
-            <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10 mb-7">下载不限速，无广告，不跑路！
-            </p>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Multi - Multipurpose Bootstrap theme</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <!-- Icon fonts-->
+    <link rel="stylesheet" href="css/pe-icon-7-stroke.css">
+    <!-- Lightbox CSS-->
+    <link rel="stylesheet" href="vendor/lightbox2/css/lightbox.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg py-lg-0">
+        <div class="container">
+          <p>&nbsp;</p>
+          <p><a href="index.html" class="navbar-brand text-uppercase font-weight-bold">Dreamfish software</a></p>
+<p><a href="index.html" class="navbar-brand text-uppercase font-weight-bold">&nbsp;</a> </p>
+<button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right small"><span class="text-uppercase mr-2">Menu</span><i class="fas fa-bars"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto d-lg-flex align-items-lg-center">
+              <li class="nav-item"><a href="index.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 active">主页&nbsp; </a>
+              </li>
+              <li class="nav-item"><a href="text.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">Dreamfish ask&nbsp; </a>
+              </li>
+              <li class="nav-item dropdown"><a id="navbarDropdownMenuLink" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4 dropdown-toggle">镜像分类&nbsp;</a>
+                <div aria-labelledby="navbarDropdownMenuLink" class="dropdown-menu mt-0"><a href="#" class="dropdown-item small text-uppercase">Dropdown item 1</a><a href="#" class="dropdown-item small text-uppercase">Dropdown item 2</a><a href="#" class="dropdown-item small text-uppercase">Dropdown item 3</a><a href="#" class="dropdown-item small text-uppercase">Dropdown item 4</a></div>
+              </li>
+              <li class="nav-item"><a href="contact.html" class="nav-link font-weight-bold text-uppercase px-lg-3 py-lg-4">关于我们&nbsp; </a>
+              </li>
+              <li class="nav-item mt-4 mt-lg-0">
+                <button type="button" data-toggle="modal" data-target="#loginModal" class="btn btn-outline-primary nav-btn btn-sm"> 加入我们&nbsp; </button>
+              </li>
+            </ul>
           </div>
-          <!-- /column -->
         </div>
-        <!-- /.row -->
-        <div class="d-flex justify-content-center">
-          <span><a href="https://htmlpage.cn/builder/" class="btn btn-lg btn-primary rounded-pill mx-1">进入总的下载链接</a></span>
-          <span><a href="https://htmlpage.cn/contact" class="btn btn-lg btn-outline-primary rounded-pill mx-1">联系我们</a></span>
-        </div>
-        <!-- /div -->
-        <div class="row mt-10">
-          <div class="col-lg-8 mx-auto">
-            <figure>
-              <img src="https://template-1253409072.cos.ap-guangzhou.myqcloud.com/sandbox/assets/img/illustrations/i12.png" alt="" class="img-fluid"/>
-            </figure>
+      </nav>
+    </header>
+    <div id="loginModal" tabindex="-1" role="dialog" aria-lebelledby="loginModalLabel" aria-hidden="true" class="modal fade">
+      <div role="document" class="modal-dialog modal-sm">
+        <div class="modal-content rounded-0">
+          <div class="modal-header">
+            <h5 id="loginModalLabel" class="text-uppercase modal-title m-0">Customers login</h5>
+            <button type="button" data-dismiss="modal" aria-label="Close" class="close"><span aria-hidden="true" class="small text-muted">&times;</span></button>
           </div>
-          <!-- /column -->
+          <div class="modal-body">
+            <form action="">
+              <div class="form-group">
+                <input type="email" placeholder="email" class="form-control">
+              </div>
+              <div class="form-group">
+                <input type="password" placeholder="password" class="form-control">
+              </div>
+              <div class="form-group text-center">
+                <button type="submit" class="btn btn-outline-primary nav-btn btn-sm"> <i class="fas fa-sign-out-alt mr-2"></i>Login </button>
+              </div>
+            </form>
+            <div class="text-center">   
+              <p class="text-muted small">Not registered yet?</p>
+              <p class="small text-muted"> <a href="#" class="font-weight-bold">Register now!</a> It is easy and done in 1 minute and gives you access to special discounts and much more!</p>
+            </div>
+          </div>
         </div>
-        <!-- /.row -->
       </div>
-      <!-- /.container -->
-    </section>
-    <section class="wrapper bg-gradient-primary">
-      <div class="container pt-14 pb-8">
-        <div class="row text-center">
-          <div class="col-lg-9 col-xxl-7 mx-auto">
-            <h2 class="display-1 mb-4">Windows镜像
-            </h2>
-          </div>
-          <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10 mb-7">
-            <span class="c2140">此部分由Raining_Fish，赵某人</span>
-            <a href="https://dreamfishoffical.github.io/nsp.cn/index.html#" class="c2158">提供镜像资源</a>
-          </p>
-          <!-- /column -->
-        </div>
-        <p class="lead fs-24 lh-sm px-md-5 px-xl-15 px-xxl-10 mb-7">
-          <span id="iga7z" class="c2595">Windows系统，来自微软的强大操作系统，广泛应用于全球的个人电脑。凭借其丰富的功能和广泛的软件支持，Windows系统为用户提供了高效的工作和娱乐体验。无论你是一个游戏爱好者还是专业人士，Windows都能满足你的需求，让你尽情享受电脑带来的便利和乐趣。</span>
-          <font color="#1abc9c" face="Lato, Arial, Helvetica, sans-serif">
-            <span id="i46ak" class="c1581"></span>
-          </font>
-          <br/>
-        </p>
-        <a class="c4673">Link</a>
+    </div>
+    <section style="background: url(img/jumbotron1.jpg)" class="py-5 bg-cover bg-center">
+      <div class="hero-overlay"></div>
+      <div class="container py-5 text-white text-center">
+        <h1 class="text-shadow hero-heading">让找镜像，不再成为绊脚石&nbsp;</h1>
+        <p class="text-shadow lead my-4">&nbsp; </p>
+        <p><a href="#" class="btn btn-outline-light btn-sm">种类多，不限速，全免费</a></p>
+        <p><a href="#" class="btn btn-outline-light btn-sm">&nbsp;打开所有镜像下载列表</a> </p>
+        <p>&nbsp;</p>
       </div>
     </section>
-    <div class="wechat-group pb-12">
-    </div>
-    <div class="description">© 2023 Lapus. 版权所有
-    </div>
+    <section class="py-5">
+      <div class="container py-5">
+        <h2 class="mb-4">Windows镜像&nbsp;</h2>
+        <p class="lead">Windows系统，来自微软的强大操作系统，广泛应用于全球的个人电脑。凭借其丰富的功能和广泛的软件支持，Windows系统为用户提供了高效的工作和娱乐体验。无论你是一个游戏爱好者还是专业人士，Windows都能满足你的需求，让你尽情享受电脑带来的便利和乐趣。&nbsp;</p>
+        <p class="text-small">&nbsp;</p>
+        <p><a href="#">&nbsp;</a><a href="#" class="btn btn-outline-primary btn-sm">下载列表</a></p>
+        <p>&nbsp; </p>
+      </div>
+    </section>
+    <section class="bg-gray py-5">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <h3 class="h5">MacOS镜像</h3>
+            <h3 class="h5">&nbsp;</h3>
+<p class="text-small">&nbsp;MacOS，源自苹果的操作系统，以优雅设计、流畅体验、强大功能，为用户展现独特魅力。界面简洁直观，操作便捷高效，软件生态丰富，创新功能层出不穷，让你的Mac成为你工作娱乐的得力助手。</p>
+          <span><a href="https://www.123pan.com/s/OmZbVv-ayAD3.html" class="btn btn-lg btn-outline-primary rounded-pill mx-1">下载列表
+          </div>
+          <div class="col-lg-4 mb-4 mb-lg-0"><a href="#" class="d-block"></a>
+            <h3 class="h5 mb-4">Linux镜像&nbsp;</h3>
+            <p class="text-small">Linux内核系统，强大而稳定，为众多操作系统提供核心支撑。其开源特性促进了全球开发者的协作与创新，实现高效资源管理，保障系统安全。Linux内核，以其卓越性能和灵活性，赢得了广泛赞誉。&nbsp;</p>
+          <span><a href="https://www.123pan.com/s/OmZbVv-fyAD3.html" class="btn btn-lg btn-outline-primary rounded-pill mx-1">下载列表
+			  
+			  </a></span>
+          </div>
+          <div class="col-lg-4 col-xl-3"><a href="#" class="d-block"></a>
+            <h3 class="h5 mb-4"><a href="#" class="text-dark">远古系统镜像&nbsp;</a></h3>
+            <p class="text-small">古老的系统，承载着历史的记忆，虽已过时，却仍散发出独特的韵味。它们见证了技术的变迁，记录着时代的脚步。虽不如现代系统便捷，但那份古朴与纯真，却让人心生敬意，难以忘怀。&nbsp;</p>
+          <span><a href="https://www.123pan.com/s/OmZbVv-ByAD3.html" class="btn btn-lg btn-outline-primary rounded-pill mx-1">下载列表
+          </div>
+        </div>
+      </div>
+    </section>
+<section>
+  <div>
+	  <h5>&nbsp;2024 DreamFishSoftware&nbsp;</h5>
+			>
+
   </div>
-</body>
+  </section>
+<!-- JavaScript files-->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/lightbox2/js/lightbox.min.js"></script>
+    <script src="js/front.js"></script>
+    <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </body>
+</html>
